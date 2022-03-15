@@ -7,7 +7,6 @@ function dialer(nums) {
       if (curr == nums[i + 1]) {
         index = index + 1 < map[curr].length ? index + 1 : 0;
       } else {
-        // let alIndex = Math.floor(map[curr].length /index
         str += map[curr][index];
         index = 0;
       }
